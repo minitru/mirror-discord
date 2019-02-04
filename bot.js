@@ -96,13 +96,6 @@ var onMessage = (message) => {
      console.log("====> HANDLING " + message.type);
    }
 
-
-  /*  OLD VERSION GOT OUT OF CONTROL
-    // DO SOMETHING ABOUT THE LINKS - NOT SURE WHAT YET
-    if (message.type == 'error' || message.type == 'group_join' || message.type == 'member_joined_channel' || message.type == 'file_created' || message.type == 'hello' || message.type == 'desktop_notification' || message.type == 'user_typing' || message.type == 'file_public') {
-      return;
-    }
-    */
     var thischan;
 
     // console.log("SLACK INCOMING MESSAGE TYPE " + message.type);
